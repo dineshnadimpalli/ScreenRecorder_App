@@ -1,0 +1,42 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+#title {
+  font-weight: bolder;
+}
+
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#stopBtn {
+  margin-left: 1em;
+}
+
+#timer {
+  font-weight: bolder;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+#videoSelectBtn {
+  margin: 20px;
+}
+
+#videoSelectBtn #text{
+  display: flex;
+  flex-wrap: wrap;
+}
